@@ -5,5 +5,5 @@ home : https://hak2711.github.io/EFUB-seminar/index.html
 
 ## Front-end
 <ol>
-  <li>1차 : HTML, CSS</li>
+  <li>1차 : HTML, CSS / JS기본</li>
 </ol>
