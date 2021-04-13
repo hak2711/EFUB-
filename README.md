@@ -1,5 +1,5 @@
 # EFUB-seminar
-EFUB 세미나 과제 제출용
+EFUB 세미나 과제 제출 및 정리
 
 home : https://hak2711.github.io/EFUB-seminar/index.html
 
