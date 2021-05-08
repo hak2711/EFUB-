@@ -16,7 +16,6 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 @Service
 public class UserService {
-    @Autowired
     UserRepository userRepository;
 
     public List<UserListResponseDto> findAll(){
