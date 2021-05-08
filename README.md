@@ -14,4 +14,5 @@ home : https://hak2711.github.io/EFUB-seminar/index.html
 <ul>
   <li>DB(MySQL), AWS</li>
   <li>Spring 개념, API 서버</li>
+  <li>Spring Container, Bean, DI</li>
 </ul>
