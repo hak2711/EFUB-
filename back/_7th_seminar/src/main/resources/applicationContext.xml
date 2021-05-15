@@ -10,7 +10,7 @@
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd">
 
     <!-- scan 범위 설정, 컨테이너 관련 설명, 파일 지정해서 설정할 수 있다는 장점 -->
-    <context:component-scan base-package="com.springbook.controller, com.springbook.dao, com.springbook.domain, com.springbook.service" />
+    <context:component-scan base-package="com.springbook.common, com.springbook.dao, com.springbook.domain, com.springbook.service" />
 
     <!-- aop를 annotation으로 설정하기 위해서 선언 -->
     <aop:aspectj-autoproxy/>
