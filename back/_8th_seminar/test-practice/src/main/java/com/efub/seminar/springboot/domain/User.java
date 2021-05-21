@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -15,8 +16,10 @@ import javax.persistence.Enumerated;
 @Builder
 @Entity
 public class User extends BaseEntity {
+    @Column(nullable = false)
     private String name;
 
     @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
     private UserType type;
 }

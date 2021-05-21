@@ -16,6 +16,7 @@ public class UserController {
 
     @PostMapping("/test/{name}")
     private User save(@PathVariable String name){
+        //return userService.save(new UserSaveRequestDto(name,UserType.NORMAL);
         UserSaveRequestDto requestDto = UserSaveRequestDto.builder()
                 .name(name)
                 .type(UserType.NORMAL)
